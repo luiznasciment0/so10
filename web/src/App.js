@@ -2,6 +2,7 @@ import React from 'react';
 import './global.css';
 import './App.css';
 import './Sidebar.css';
+import './Main.css';
 function App() {
 
   return (
@@ -34,11 +35,59 @@ function App() {
           </div>
         
           <button type="submit">Salvar</button>
-          
         </form>
       </aside>
+
       <main>
-        
+        <ul>
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars3.githubusercontent.com/u/55008532?s=460&u=a2fe7b9f15fe1f150e6ac3afa849ad95c3ff1051&v=4" alt="Luiz Nascimento"/>
+              <div className="user-info">
+                <strong>Luiz Nascimento</strong>
+                <span>ReactJS, React Native, Node.js</span>
+              </div>
+            </header>
+            <p>Junior FullStack Developer. JavaScript e Java. Vontade de vencer!</p>
+            <a href="https://github.com/luiznasciment0">Acessar perfil no Github</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars3.githubusercontent.com/u/55008532?s=460&u=a2fe7b9f15fe1f150e6ac3afa849ad95c3ff1051&v=4" alt="Luiz Nascimento"/>
+              <div className="user-info">
+                <strong>Luiz Nascimento</strong>
+                <span>ReactJS, React Native, Node.js</span>
+              </div>
+            </header>
+            <p>Junior FullStack Developer. JavaScript e Java. Vontade de vencer!</p>
+            <a href="https://github.com/luiznasciment0">Acessar perfil no Github</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars3.githubusercontent.com/u/55008532?s=460&u=a2fe7b9f15fe1f150e6ac3afa849ad95c3ff1051&v=4" alt="Luiz Nascimento"/>
+              <div className="user-info">
+                <strong>Luiz Nascimento</strong>
+                <span>ReactJS, React Native, Node.js</span>
+              </div>
+            </header>
+            <p>Junior FullStack Developer. JavaScript e Java. Vontade de vencer!</p>
+            <a href="https://github.com/luiznasciment0">Acessar perfil no Github</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars3.githubusercontent.com/u/55008532?s=460&u=a2fe7b9f15fe1f150e6ac3afa849ad95c3ff1051&v=4" alt="Luiz Nascimento"/>
+              <div className="user-info">
+                <strong>Luiz Nascimento</strong>
+                <span>ReactJS, React Native, Node.js</span>
+              </div>
+            </header>
+            <p>Junior FullStack Developer. JavaScript e Java. Vontade de vencer!</p>
+            <a href="https://github.com/luiznasciment0">Acessar perfil no Github</a>
+          </li>
+        </ul>
       </main>
     </div>
   );
